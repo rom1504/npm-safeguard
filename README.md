@@ -22,3 +22,10 @@ packagesContainIdea(names.filter(name => name.includes('prismarine')))
 
 * https://github.com/ChALkeR/notes/blob/master/Do-not-underestimate-credentials-leaks.md
 * https://github.com/npm/npm/issues/5673
+
+
+## History
+
+### 0.0.0
+
+* first version, basic checking works
