@@ -1,0 +1,29 @@
+{
+  "name": "npm-safeguard",
+  "version": "0.0.0",
+  "description": "Download the most popular npm packages and check if they have accidentally published dot files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rom1504/npm-safeguard.git"
+  },
+  "keywords": [
+    "npm",
+    "safeguard",
+    "dotfiles",
+    "security"
+  ],
+  "author": "Romain Beaumont <romain.rom1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rom1504/npm-safeguard/issues"
+  },
+  "homepage": "https://github.com/rom1504/npm-safeguard#readme",
+  "dependencies": {
+    "all-the-package-names": "^1.3.0",
+    "npm-get": "^0.2.0"
+  }
+}
