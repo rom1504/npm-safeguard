@@ -13,7 +13,9 @@ function packagesContainIdea(names)
 {
   return Promise.all(
     names.map(name => packageContainsIdea(name)
-    .then(result => ({name:name,result:result}))))
+    .then(result => ({name:name,result:result}))
+    .then(result => {console.log(result);return result;})
+))
 }
 
 module.exports={packageContainsIdea,packagesContainIdea};
