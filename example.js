@@ -6,4 +6,4 @@ const names=require('all-the-package-names');
 
 const getMostStarredPackages=require('./mostStarredPackages');
 
-getMostStarredPackages(200).then(packagesContainIdea).then(results => {console.log(results);console.log(results.filter(result => result.result);)})
+getMostStarredPackages(200).then(packagesContainIdea).then(results => {console.log(results);console.log(results.filter(result => result.result));})
